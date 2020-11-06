@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Produtos - Mimos da Sol</title>
+    <link rel="stylesheet" href="./estiloMexer.css">
+    <script src="./scriptMexer.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+
+
+
+            <div class="container-fluid">
+                <div class="row">
+
+                    <a class="navbar-brand" href="./indexMexer.html">Home</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="./produtosMexer.html">Produtos</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="./lojaMexer.html">Loja</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="./contatoMexer.html">Contato</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+        </nav>
+    </header>
+
+
+    <br>
+    <br>
+    <main>
+        <h2> Produtos</h2>
+        <hr>
+        <br>
+        <br>
+        <div class="pagproduto ">
+
+            <section class="categoria ">
+                <h3>
+                    Categorias
+                </h3>
+                <div class="container py-2 mt-3">
+
+                    <div class="row">
+                        <div class="col">
+
+                            <ul>
+                                <li class="text-info" onclick=" exibirtodas() ">Todas(12)</li>
+                                <li class="text-info" onclick="exibircategoria( 'Bazul') ">Boneca Azul(2)</li>
+                                <li class="text-info" onclick="exibircategoria( 'Bamarela') ">Boneca Amarela(4)</li>
+                                <li class="text-info" onclick="exibircategoria( 'Brosa') ">Boneca Rosa(3) </li>
+                                <li class="text-info" onclick="exibircategoria( 'Broxa') ">Boneca Roxa (2)</li>
+                                <li class="text-info" onclick="exibircategoria( 'Bbege') ">Boneca Bege (1)</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="bonecast ">
+                <div class="produtos " id="Bazul " style="display:block ">
+                    <img src="Produtos/IMG-20200604-WA0070.jpeg " onclick="destaque(this) ">
+                    <br>
+                    <strong id="bonecaazul1 ">Boneca pomposa</strong>
+                    <hr>
+                    <strike>R$ 35,00</strike>
+                    <br>
+                    <br> R$ 30,00
+                    <br>
+                    <br>
+                </div>
+
+                <br>
+                <div class="produtos " id="Bamarela " style="display:block ">
+                    <img src="Produtos/IMG-20200604-WA0074.jpeg " onclick="destaque(this) ">
+                    <br>
+                    <strong id="bonecaamarela1 ">Boneca porpurina</strong>
+                    <hr>
+                    <strike> R$ 40,00</strike>
+                    <br>
+                    <br> R$ 30,00
+                    <br>
+                    <br>
+
+                </div>
+                <br>
+
+
+                <div class="produtos " id="Bazul " style="display:block ">
+                    <img src="Produtos/IMG-20200604-WA0084.jpeg " onclick="destaque(this) ">
+                    <br>
+                    <strong id="bonecaazul2 ">Boneca florença</strong>
+                    <hr>
+                    <strike> R$ 40,00</strike>
+                    <br>
+                    <br> R$ 35,00
+                    <br>
+                    <br>
+                </div>
+                <br>
+                <br>
+                <div class="produtos " id="Bamarela " style="display:block ">
+
+
+
+                    <img src="Produtos/IMG-20200604-WA0088.jpeg " onclick="destaque(this) ">
+                    <br>
+                    <strong id="bonecaamarela2 "> Boneca radiante</strong>
+                    <hr>
+                    <strike> R$ 40,00</strike>
+                    <br>
+                    <br> R$ 30,00
+                    <br>
+                    <br>
+
+                </div>
+                <br>
+                <br>
+                <div class="produtos " id="Bbege " style="display:block ">
+
+                    <img src="Produtos/IMG-20200604-WA0150.jpeg " onclick="destaque(this) ">
+                    <br>
+                    <strong id="bonecabege ">Boneca amélia</strong>
+                    <hr>
+                    <strike> R$ 50,00</strike>
+                    <br>
+                    <br> R$ 45,00
+                    <br>
+                    <br>
+
+                </div>
+                <br>
+                <div class="produtos " id="Bamarela " style="display:block ">
+                    <img src="Produtos/IMG-20200604-WA0172.jpeg " onclick="destaque(this) ">
+                    <br>
+                    <strong id="bonecaamarela3 ">Boneca carinho</strong>
+                    <hr>
+                    <strike> R$ 70,00</strike>
+                    <br>
+                    <br> R$ 55,00
+                    <br>
+                    <br>
+
+
+                </div>
+                <br>
+                <div class="produtos " id="Brosa " style="display:block ">
+                    <img src="Produtos/IMG-20200604-WA0066.jpeg " onclick="destaque(this) ">
+                    <br>
+                    <strong id="bonecarosa1 "> Boneca reluzente</strong>
+                    <hr>
+                    <strike> R$ 40,00</strike>
+                    <br>
+                    <br> R$ 30,00
+                    <br>
+                    <br>
+
+
+                </div>
+                <br>
+                <div class="produtos " id="Brosa " style="display:block ">
+                    <img src="Produtos/IMG-20200604-WA0120.jpeg " onclick="destaque(this) ">
+                    <br>
+                    <strong id="bonecarosa2 "> Boneca chamego</strong>
+                    <hr>
+                    <strike> R$ 50,00</strike>
+                    <br>
+                    <br> R$ 45,00
+                    <br>
+                    <br>
+
+
+                </div>
+                <br>
+                <div class="produtos " id="Broxa " style="display:block ">
+                    <img src="Produtos/IMG-20200604-WA0092.jpeg " onclick="destaque(this) ">
+                    <br>
+                    <strong id="bonecaroxa1 ">Boneca beijinho</strong>
+                    <hr>
+                    <strike> R$ 40,00</strike>
+                    <br>
+                    <br> R$ 35,00
+                    <br>
+                    <br>
+
+
+                </div>
+                <br>
+
+                <div class="produtos " id="Broxa " style="display:block ">
+                    <img src="Produtos/IMG-20200604-WA0157.jpeg " onclick="destaque(this) ">
+                    <br>
+                    <strong id="bonecaroxa2 "> Boneca maria </strong>
+                    <hr>
+                    <strike> R$ 60,00</strike>
+                    <br>
+                    <br> R$ 55,00
+                    <br>
+                    <br>
+
+
+                </div>
+                <br>
+                <div class="produtos " id="Brosa " style="display:block ">
+                    <img src="Produtos/IMG-20200604-WA0133.jpeg " onclick="destaque(this) ">
+                    <br>
+                    <strong id="bonecarosa3 "> Boneca mozinho</strong>
+                    <hr>
+                    <strike> R$ 40,00</strike>
+                    <br>
+                    <br> R$ 35,00
+                    <br>
+                    <br>
+
+
+                </div>
+                <br>
+                <div class="produtos " id="Bamarela " style="display:block ">
+                    <img src="Produtos/IMG-20200604-WA0108.jpeg " onclick="destaque(this) ">
+                    <br>
+                    <strong id="bonecaamarela4 "> Boneca dengo </strong>
+                    <hr>
+                    <strike> R$ 50,00</strike>
+                    <br>
+                    <br> R$ 46,00
+                    <br>
+                    <br>
+
+
+                </div>
+                <br>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </main>
+
+    <footer id="assinatura ">
+        <div class="container ">
+            <div class="row justify-content-md-center ">
+                <img width="500px " src="./Produtos/forma de pagamento daten - logos-cartoes_.jpg " alt="Formas de pagamento " class="logoFooter "></a>
+            </div>
+            <br>
+            <br>
+            <div class="row justify-content-md-center ">
+                <p class="text-dark"><strong>Midian Brandão &copy Recode Pro 2020</strong></p>
+            </div>
+    </footer>
+</body>
+
+</html>
+
+</html>
